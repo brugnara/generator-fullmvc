@@ -26,7 +26,7 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-fullmvc from npm, run:
 
 ```
-$ npm install -g generator-fullmvc
+$ npm install -g git@github.com:brugnara/generator-fullmvc.git
 ```
 
 Finally, initiate the generator:
