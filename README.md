@@ -12,11 +12,14 @@ To install generator-fullmvc from npm, run:
 $ npm install -g git@github.com:brugnara/generator-fullmvc.git
 ```
 
-Finally, initiate the generator:
+Finally, initiate the generator and create the first module:
 
 ```
 $ yo fullmvc
+$ cd app/modules
+$ yo fullmvc-module home
 ```
+
 
 ## License
 

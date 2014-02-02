@@ -1,6 +1,6 @@
 {
   "name": "generator-fullmvc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator"
@@ -8,8 +8,8 @@
   "homepage": "https://github.com/brugnara/generator-fullmvc",
   "bugs": "https://github.com/brugnara/generator-fullmvc/issues",
   "author": {
-    "name": "Daniele",
-    "email": "",
+    "name": "Daniele Brugnara",
+    "email": "daniele@brugnara.me",
     "url": "https://github.com/brugnara"
   },
   "main": "app/index.js",
