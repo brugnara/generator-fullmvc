@@ -5,23 +5,6 @@ A generator for [Yeoman](http://yeoman.io).
 
 ## Getting Started
 
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
-```
-$ npm install -g yo
-```
-
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
 To install generator-fullmvc from npm, run:
 
@@ -35,13 +18,25 @@ Finally, initiate the generator:
 $ yo fullmvc
 ```
 
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
-
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+## Thanks to
+
+This awesome mvc, is possibile due this projects:
+
+ - [RequireJS](https://github.com/jrburke/requirejs)
+ - [AngularJS](https://github.com/angular/angular.js)
+ - [AngularAMD](https://github.com/marcoslin/angularAMD/)
+ - [Angular-UI-Bootstrap](https://github.com/angular-ui/bootstrap-bower)
+ - [Bower](https://github.com/bower/bower)
+ - [CoffeeScript](https://github.com/jashkenas/coffee-script)
+ - [Bootstrap-SASS](https://github.com/twbs/bootstrap-sass)
+ - [Yeoman](https://github.com/yeoman/yeoman/)
+ - [Grunt](https://github.com/gruntjs)
+ - [Angular-localizationservice](https://github.com/lavinjj/angularjs-localizationservice) (But I'm using a [forked version](https://github.com/brugnara/angularjs-localizationservice))
+ - [Restangular](https://github.com/mgonto/restangular)
+ - [jQuery](https://github.com/jquery/jquery)
+  
+
