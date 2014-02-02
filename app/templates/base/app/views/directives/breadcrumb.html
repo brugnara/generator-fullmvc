@@ -1,0 +1,10 @@
+<ol class="breadcrumb">
+  <li ng-repeat="bc in breadcrumbs" ng-class=" { active: $last } ">
+    <a ng-href=" #{{ bc.url }} " ng-show="!$last">
+      {{ bc.title }}
+    </a>
+      <span ng-show="$last">
+        {{ bc.title }}
+      </span>
+  </li>
+</ol>

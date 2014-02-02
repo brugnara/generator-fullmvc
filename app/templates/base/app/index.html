@@ -1,0 +1,53 @@
+<!doctype html ng-app>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<title ng-bind-template="{{ 'title' | i18n }}">FullMVC</title>
+    	<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link href="images/icon.ico" rel="shortcut icon"></link>
+        <link rel="stylesheet" href="bower_components/bootstrap-sass/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/angular-slider/angular-slider.min.css">
+        <link rel="stylesheet" href="/bower_components/css-toggle-switch/dist/toggle-switch.css">
+        <!-- build:css({.tmp,app}) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">        
+      	<link rel="stylesheet" href="styles/customs.css">
+      	<link rel="stylesheet" href="styles/offcanvas.css">
+      	<link rel="stylesheet" href="styles/checkboxes.css">
+      	<!-- endbuild -->
+	</head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div ng-include="'views/header.html'"></div>
+    <div class="container">
+		<div class="row row-offcanvas row-offcanvas-left">
+	  		<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sideBar" role="navigation">
+	  			<div ng-include="'views/menu.html'"></div>
+	  		</div>
+			<div class="col-xs-12 col-sm-9" id="cfpApp">
+				<div id="cfpAppWrapper" ng-view=""></div>
+				<p class="pull-left visible-xs" id="backToMenu">
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" ng-bind-template="&lt;&lt;&lt; {{ 'buttonMenu' | i18n }}"></button>
+				</p>
+			</div>
+		</div>    
+    </div>
+
+    <script data-main="scripts/init" src="bower_components/requirejs/require.js"></script>
+
+</body>
+</html>

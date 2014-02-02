@@ -1,0 +1,19 @@
+<div ng-controller="MenuCtrl">
+	<div class="list-group" id="menuList">               
+		<a style="display: none;" id="configuratorMenuItem" class="list-group-item"></a>
+		<a id="divHome" class="list-group-item active" href="#/home">
+			<img alt="{{ 'menuHome' | i18n }}" ng-src="images/menu/logo.png" id="menuImg">{{ 'menuHome' | i18n }}
+		</a>    
+		<!--a ng-repeat="item in menuItems" ng-href="{{item.path}}" class="list-group-item menuItem" id="{{item.id}}" repeat-done="layoutDone()"-->
+		<a ng-repeat="item in menuItems" ng-href="{{item.path}}" class="list-group-item menuItem" id="{{item.id}}" repeat-done="layoutDone()">
+		<span id="menuTarget">	
+			<span id="menuTargetImg">
+				<img alt="{{item.name | i18n}}" ng-src="{{item.imgClick}}" id="menuImgClick">
+			</span>
+			<span id="menuTargetLink">
+				{{item.name | i18n}}
+			</span>
+		</span>		
+		</a>
+	</div>	
+</div>

@@ -1,0 +1,272 @@
+.bottom-spacer {
+    margin-bottom: 10px;
+}
+.bottom-spacer-mini {
+    margin-bottom: 5px;
+}
+#menuList .list-group-item:first-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+#menuList .list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+div#menuList a#divHome{
+	background-color: #47a447;
+	border-color:  #47a447;
+	color: #fff !important;
+}
+body {
+	background-image: url(../images/greenwp.jpg);
+  background-size: cover;
+}
+div#cfgHeader{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+div#sideBar{
+	padding: 0;
+}
+div#menuList img{
+	margin-right: 15px;display: block;width: 26px;float: left;
+}
+div#cfpApp{
+	padding: 0;padding-right: 40px;
+}
+div#cfpAppWrapper{
+	/*padding-bottom: 20px;*/
+}
+p#backToMenu{
+	margin-left: 1px;margin-top: 5px;
+}
+div#divMain{
+	text-align: right;margin-right: 10px;margin-top: 42px;height: 246px;
+}
+.cfgTab{
+	padding: 15px;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 1);
+  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.form-horizontal.alignLeft .control-label {
+	text-align: left;
+}
+div.configuratorContainerBig{
+	margin-top: 42px;margin-left: 37px;
+}
+div.configuratorContainerSmall{
+	margin-top: 42px;margin-left: 42px;
+}
+div.configuratorBig{
+	background-color: white; width:120px;height:165px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);border-radius: 4px;float: left;
+	margin-right: 10px;margin-bottom: 10px;
+	padding-top: 11px;padding-bottom: 11px;
+}
+div.configuratorBig a{
+	display: block;width:96px;margin:auto; margin-bottom: 10px;
+}
+div.configuratorBig span{
+	display: block;text-align: center;font-weight: bold;width: 110px;margin: auto;
+}
+div.configurator{
+	background-color: white; width:120px;height:134px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);border-radius: 4px;float: left;
+	margin-right: 30px;margin-bottom: 30px;
+	padding-top: 12px;padding-bottom:8px;
+}
+div.configurator a{
+	display: block;width:64px;margin: auto;margin-bottom: 10px;
+}
+div.configurator span{
+	display: block;text-align: center;font-weight: bold;
+}
+div.configuratorContainer :hover{
+	box-shadow: 0px 0px 6pt 4pt #428bca;
+}
+div.configuratorContainer :hover span{
+	/*text-shadow: 0px 2px 3px #555;*/
+	/*-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(51,51,51,1)), color-stop(50%, rgba(91,91,91,.5)), to(rgba(51,51,51,1)));*/
+}
+div.configuratorContainer a,img,span:hover{
+	box-shadow: none !important;
+}
+.nav-tabs > li > a {
+	border-radius: 0;
+}
+.nav-tabs > li.active > a {
+	font-weight: bold;
+	color: #2a6496;
+}
+.nav-tabs > li.active > a:hover{
+	color: #2a6496;
+}
+a#configuratorMenuItem{
+	border-top-right-radius: 0;border-top-left-radius: 0;
+	padding-left: 55px;
+	background-color:#5b5b5b;border-color: #5b5b5b;
+	color: white;
+}
+div.labelHover :hover{
+	background-color: #eeeeee;
+}
+.menuHover{
+	color: white !important;
+}
+.menuHover2{
+	background-color: #fb8521 !important;
+	border: 1px solid #fb8521 !important;
+	outline: 1px solid #fb8521 !important;
+}
+.menuHover3{
+	background-color: #e50000 !important;
+	border: 1px solid #e50000 !important;
+	outline: 1px solid #e50000 !important;
+	}
+.menuHover4{
+	background-color: #990066 !important;
+	border: 1px solid #990066 !important;
+	outline: 1px solid #990066 !important;
+}
+/**.menuHover5{
+	background-color: #bf8fec !important;
+	border: 1px solid #bf8fec !important;
+	outline: 1px solid #bf8fec !important;
+}*/
+.menuHover5{
+	background-color: #428bca !important;
+	border: 1px solid #428bca !important;
+	outline: 1px solid #428bca !important;
+}
+.menuHover6{
+	background-color: #003399 !important;
+	border: 1px solid #003399 !important;
+	outline: 1px solid #003399 !important;
+}
+span#menuTarget{
+ 	display: table;
+    height: 42px;
+}
+span#menuTargetImg{
+	height: 42px;
+	width: 48px;
+	display: block;
+	float: left;
+}
+span#menuTargetImg img{
+	margin: 0;
+	margin-left: 16px;
+	margin-top: 8px;
+}
+span#menuTargetLink{
+	display: block;
+	height: 42px;
+	float: left;
+	line-height: 42px;
+	margin-left: 9px;
+}
+a.menuItem{
+	padding: 0;outline: 0 !important;
+}
+button#modalInfoButton{
+	height:34px;
+}
+/* Modules */
+hr.inline {
+  border-top: 1px solid #3e8e3e !important;
+  margin-top: 10px !important;
+}
+.cfgTab h3 {
+  color: #3e8e3e;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.fieldsetTitle{
+	margin-right: 5px;
+	color: #3e8e3e;
+	font-weight: bold;	
+}
+
+.cfgTab.bgImage {
+  background: rgba(255,255,255,0.5);
+}
+
+.img-background {
+  position: absolute;
+  right: 80px;
+  top: 100px;
+  /*opacity: 0.6;*/
+}
+.icon {
+  height: 100px;
+  width: 100px;
+}
+slider {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+slider span.bar{
+	background: none;
+	border: 1px #ccc solid;
+	-webkit-box-shadow: none;
+	box-shadow: none;	
+}
+slider span.pointer{
+	border: 1px solid #d3d3d3;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	top: -6px;
+	background: #e6e6e6 url(../images/ui-slider-bg_glass.png) 50% 50% repeat-x;
+}
+slider span.pointer:after {
+	display: none;
+}
+slider span.pointer:hover{
+	border: 1px #999999 solid;
+}
+span.sliderInfo{
+	height: 27px;
+	display: block;
+	width: 27px;
+	line-height: 27px;
+	padding: 0;
+	margin-top: 4px;
+	font-size: 100%;
+}
+.titleSpacer{
+	height: 10px;
+}
+.btnContainer{
+	margin-top: 30px;
+}
+.btnMedium{
+	width: 75px;
+}
+.btnPrimaryExt{
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	font-weight: bold;
+	background: #222 url(../images/overlay.png) repeat-x;
+	background-color: #428bca;
+}
+.btnPrimaryExt:hover{
+	border-color: #357ebd;
+}
+.btnDefaultExt{
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 0 -1px 1px rgba(0,0,0,0.25);*/
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    font-weight: bold;
+    background: #222 url(../images/overlay.png) repeat-x;
+    background-color: #fff;
+    color: #357ebd;
+}
+.btnDefaultExt:hover{
+    border-color: #ccc;
+    color: #357ebd;
+}

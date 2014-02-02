@@ -1,0 +1,57 @@
+[
+  {
+    "key": "title",
+    "value": "Full MVC | CoffeeScript + AngularJS + AngularAMD + RequireJS",
+    "description": ""
+  },
+  {
+    "key": "search",
+    "value": "Search...",
+    "description": ""
+  },
+  {
+    "key": "menuHome",
+    "value": "Main menù",
+    "description": ""
+  },
+  {
+    "key": "buttonMenu",
+    "value": "<<<",
+    "description": ""
+  },
+  {
+    "key": "menuNetwork",
+    "value": "Network",
+    "description": ""
+  },
+  {
+    "key": "menuUI",
+    "value": "Userinterface",
+    "description": ""
+  },
+  {
+    "key": "menuSecurity",
+    "value": "Secutiry",
+    "description": ""
+  },
+  {
+    "key": "menuPrinter",
+    "value": "Printers",
+    "description": ""
+  },
+  {
+    "key": "menuControlPanel",
+    "value": "Control Panel",
+    "description": ""
+  },
+  {
+    "key": "save",
+    "value": "Save",
+    "description": ""
+  },
+  {
+    "key": "cancel",
+    "value": "Cancel",			
+    "description": ""
+  }
+]
