@@ -2,46 +2,18 @@ define ['app', 'bootstrap'], (app, bs) ->
   'use strict'
 
   app.controller 'MenuCtrl', ($scope, $timeout) ->
-    $scope.menuItems = [
-      name: 'menuNetwork'
-      path: '#/network'
-      styleClass: ''
-      id: 'divNetwork'
-      img: 'images/menu/network.png'
-      imgClick: 'images/menu/network_click.png'
-    ,
-      name: 'menuUI'
+    $scope.menuItems = [      
+      name: 'menuHome'
       path: '#/home'
       styleClass: ''
-      id: 'divUI'
-      img: 'images/menu/ui.png'
-      imgClick: 'images/menu/ui_click.png'
-    ,
-      name: 'menuSecurity'
-      path: '#/'
-      styleClass: ''
-      id: 'divSecurity'
-      img: 'images/menu/security.png'
-      imgClick: 'images/menu/security_click.png'
-    ,
-      name: 'menuPrinter'
-      path: '#/'
-      styleClass: ''
-      id: 'divPrinter'
-      img: 'images/menu/printer.png'
-      imgClick: 'images/menu/printer_click.png'
-    ,
-      name: 'menuControlPanel'
-      path: '#/controlpanel'
-      styleClass: ''
-      id: 'divControlPanel'
-      img: 'images/menu/settings.png'
+      id: 'divHome'
+      img: 'images/menu/home.png'
       imgClick: 'images/menu/settings_click.png'
     ]
 
     $scope.layoutDone = -> 
         $timeout (->
-            setupMenu();
+            setupMenu(); 
         ) , 0
 
   app.directive "repeatDone", ->

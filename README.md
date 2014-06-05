@@ -18,7 +18,39 @@ Finally, initiate the generator and create the first module:
 $ yo fullmvc
 $ cd app/modules
 $ yo fullmvc-module home
+$ cd ../../
+$ grunt serve
 ```
+
+### modules.json
+
+You will need to tell the application, wich module you want boot.
+Please remember to add the new dep after created a new module.
+
+'''
+{
+  "dependencies": {
+    "home" : {}
+  }  
+}
+'''
+
+A more detailed module.json example:
+
+'''
+{
+  "dependencies": {
+    "items" : {},
+    "home": {
+      "dependencies": {
+        "menu": {}
+      }
+    }
+  }  
+}
+'''
+
+**Note that each dependencies can have subdependencies**
 
 
 ## License
