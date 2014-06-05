@@ -27,17 +27,17 @@ $ grunt serve
 You will need to tell the application, wich module you want boot.
 Please remember to add the new dep after created a new module.
 
-'''
+```
 {
   "dependencies": {
     "home" : {}
   }  
 }
-'''
+```
 
 A more detailed module.json example:
 
-'''
+```
 {
   "dependencies": {
     "items" : {},
@@ -48,7 +48,7 @@ A more detailed module.json example:
     }
   }  
 }
-'''
+```
 
 **Note that each dependencies can have subdependencies**
 
