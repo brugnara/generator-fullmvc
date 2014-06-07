@@ -9,7 +9,7 @@ A generator for [Yeoman](http://yeoman.io).
 To install generator-fullmvc from npm, run:
 
 ```
-$ npm install -g generator-fullmvc
+$ npm install -g generator-fullmvc generator-fullmvc-module
 ```
 
 Finally, initiate the generator and create the first module:
